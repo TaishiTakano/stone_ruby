@@ -1,0 +1,10 @@
+<h1>結果ページ</h1>
+<ul>
+<% tokens.each_with_index do |token, i| %>
+ <li><%= i %>番目のトークン：<%= token %></li>
+<% end %>
+</ul>
+<p>
+<%= tree.left %>
+</p>
+<a href='/'>戻る</a>
